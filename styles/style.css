@@ -130,6 +130,7 @@
     }
     .influencer-journey-content{
         text-align: center;
+        margin: 0 auto;
         order: 2;
     }
     .journey-heading{
@@ -148,4 +149,40 @@
         font-weight: 500;
 }
 
+}
+
+/* sponsors section style */
+
+.sponsors{
+    max-width: 1140px;
+    margin: 50px auto;
+    
+}
+.sponsors-img{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 30px;
+}
+
+/* Add responsive to sponsors section */
+@media screen and (max-width:786px){
+    .sponsors{
+        width: 260.21px;
+        height: 50.46px;
+    
+    }
+    .sponsors-img{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+     .sponsors-img img:nth-child(5),
+    .sponsors-img img:nth-child(6),
+    .sponsors-img img:nth-child(7) {
+        align-items: center;
+        
+    }
+    
 }
