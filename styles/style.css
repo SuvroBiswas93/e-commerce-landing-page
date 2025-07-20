@@ -331,3 +331,50 @@
         max-width: 100%;
     }
 }
+
+/* Footer style */
+.footer{
+    max-width: 1366px;
+    background-color: #0A0826;
+    margin-top:50px ;
+}
+.footer-content{
+    text-align: center;
+    align-items: center;
+    padding: 50px auto;
+}
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    /* margin-top: 30px; */
+    
+}
+.footer-paragraph{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(217, 219, 225);
+    margin-top: 15px;
+    
+}
+.another-paragraph{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: rgb(217, 219, 225);
+}
+.footer-icon{
+    margin-top: 20px;
+}
+
+/* Footer responsive */
+@media screen and (max-width:786px){
+.footer{
+    max-width: 100%;
+}
+
+.footer-content{
+    text-align: center;
+    align-items: center;
+    padding: 50px auto;
+}
+}
