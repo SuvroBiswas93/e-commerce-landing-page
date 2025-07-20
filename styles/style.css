@@ -368,6 +368,9 @@
     color: rgb(217, 219, 225);
 }
 .footer-icon{
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
@@ -386,5 +389,9 @@
 .footer-heading{
     font-size: 1.5rem;
    
+}
+.footer-icon{
+    gap: 12px;
+    
 }
 }
