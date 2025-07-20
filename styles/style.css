@@ -348,7 +348,7 @@
     padding: 50px auto;
 }
 .footer-heading{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: rgb(255, 255, 255);
     /* margin-top: 30px; */
@@ -364,6 +364,7 @@
 .another-paragraph{
     font-size: 0.9rem;
     font-weight: 700;
+    margin-top: 15px;
     color: rgb(217, 219, 225);
 }
 .footer-icon{
@@ -381,5 +382,9 @@
     text-align: center;
     align-items: center;
     padding: 50px auto;
+}
+.footer-heading{
+    font-size: 1.5rem;
+   
 }
 }
