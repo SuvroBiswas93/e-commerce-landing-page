@@ -178,7 +178,7 @@
 @media screen and (max-width:786px){
     .sponsors{
         padding: 0 20px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .sponsors-img{
         display: flex;
@@ -222,7 +222,7 @@
 .card-within{
     display: flex;
     align-items: center;
-    border: 1px solid red;
+   
 }
 .card-img{
     max-width: 300px;
