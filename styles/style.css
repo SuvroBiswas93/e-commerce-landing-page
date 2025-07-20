@@ -177,22 +177,18 @@
 /* Add responsive to sponsors section */
 @media screen and (max-width:786px){
     .sponsors{
-        width: 275px;
-        height: 60px;
-    
+        padding: 0 20px;
+        border: 1px solid red;
     }
     .sponsors-img{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
+        display: flex;
+        flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
         align-items: center;
     }
-     .sponsors-img img:nth-child(5),
-    .sponsors-img img:nth-child(6),
-    .sponsors-img img:nth-child(7) {
-        align-items: center;
-        
+    .sponsors-img img{
+        max-width: 60px;
     }
     
 }
@@ -222,6 +218,11 @@
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
+}
+.card-within{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
 }
 .card-img{
     max-width: 300px;
@@ -319,7 +320,7 @@
 /* Add responsive to featured products */
 @media screen and (max-width:786px){
     .featured-products{
-        max-width: 100%;
+        max-width: 90%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -339,7 +340,7 @@
 .footer{
     max-width: 1366px;
     background-color: #0A0826;
-    margin-top:50px ;
+     padding: 50px 0;
 }
 .footer-content{
     text-align: center;
@@ -373,6 +374,7 @@
 @media screen and (max-width:786px){
 .footer{
     max-width: 100%;
+    padding: 30px 0;
 }
 
 .footer-content{
