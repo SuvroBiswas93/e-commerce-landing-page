@@ -173,8 +173,8 @@
 /* Add responsive to sponsors section */
 @media screen and (max-width:786px){
     .sponsors{
-        width: 260.21px;
-        height: 50.46px;
+        width: 275px;
+        height: 60px;
     
     }
     .sponsors-img{
